@@ -1,6 +1,7 @@
 #include "Reader.h"
 #include "Compiler.h"
 #include "Expression.h"
+#include "Machine.h"
 //#include "Machine.h"
 
 int main()
@@ -16,7 +17,7 @@ int main()
 
 	compiler.compile();
 
-	//Machine machine;
-	//machine.readImf();
+	Machine machine;
+	machine.readImf();
 	return 0;
 }

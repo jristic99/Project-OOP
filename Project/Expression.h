@@ -23,7 +23,7 @@ protected:
 	Expression* left_operand_;
 	Expression* right_operand_;
 
-	ArithmeticOperation *operation_;
+	Operation *operation_;
 
 	Token* token_;
 private:

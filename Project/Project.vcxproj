@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="CompilationStrategy.cpp" />
     <ClCompile Include="Hardware.cpp" />
+    <ClCompile Include="Machine.cpp" />
     <ClCompile Include="Reader.cpp" />
     <ClCompile Include="Software.cpp" />
     <ClCompile Include="Source.cpp" />
@@ -124,8 +125,10 @@
   <ItemGroup>
     <ClInclude Include="CompilationStrategy.h" />
     <ClInclude Include="Compiler.h" />
+    <ClInclude Include="Exceptions.h" />
     <ClInclude Include="Expression.h" />
     <ClInclude Include="Hardware.h" />
+    <ClInclude Include="Machine.h" />
     <ClInclude Include="Program.h" />
     <ClInclude Include="Reader.h" />
   </ItemGroup>

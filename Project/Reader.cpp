@@ -49,7 +49,7 @@ unordered_map<char, double> Reader::readConfig()
 			config['+'] = parameter;
 			break;
 		case 'm':
-			config['-'] = parameter;
+			config['*'] = parameter;
 			break;
 		case 'e':
 			config['^'] = parameter;
